@@ -6,12 +6,16 @@
 	<title>Daena Ramiah</title>
 
 	<script>
+	// create array to store 4 images to rotate through carousel
 	var images=["https://lh5.googleusercontent.com/-SXvszRi7uHY/U_uHkqFH7nI/AAAAAAAAAqQ/ZOtQRbBRBNU/s640/IMG_1031.JPG",
 	"https://lh3.googleusercontent.com/-iy0IuN664KA/U_uBDGozOQI/AAAAAAAAApg/cQViAqZIMis/s640/image%2520%25282%2529.jpg","https://lh5.googleusercontent.com/-TRSixrCy77I/U_uBBSlAvdI/AAAAAAAAApI/hCasyvhxmSQ/s640/IMG_0857.JPG","https://lh4.googleusercontent.com/-CSnW6hZzO2U/U_uJNruWAZI/AAAAAAAAAqc/0sphhnBh5NI/s720/DSC_0010.JPG"]
-
+	//create array of captions to go with carousel pictures
 	var caption=["Me with my dad and sister","Me with my mom","The family at the Cape of Good Hope","Me and my husband"]
 
+	// set initial count to 0
 	var count = 0;
+
+	//scroll function to switch to the next picture when called and increase count by 1 until it hits 3, then reset back to 0.
 	var scroll = function() {
 	$('.carousel').html('<img class="aligned-small" src='+images[count]+'><p>'+caption[count]+'</p>');
 	if(count<3){
@@ -21,7 +25,10 @@
 		count=0;
 	}
 	}
+
+	//call scroll initially upon page loading
 	scroll();
+	//call scroll continously every 3 sec
 	setInterval(scroll,3000);
 </script>
 </head>
