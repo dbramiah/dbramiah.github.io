@@ -18,6 +18,13 @@
 		letter-spacing: 2px;
 		color: rgba(162,131,78,1);
 	}
+
+	.about{
+		margin: 10px;
+	}
+	.connect{
+		margin: 10px;
+	}
 	.center{
 		text-align: center;
 	}
@@ -28,19 +35,22 @@
 	}
 
 	.size {
-		width: 300px;
+		width: 250px;
 		border-radius: 20px;
 	}
 
 	.small{
 	font-size: 14px;
-	width: 300px;
+	width: 230px;
 	text-align: center;
+	margin: 10px;
 	}
 
 	.aligned-small{
 		font-size: 14px;
 		text-align: center;
+		height: 300px;
+		border-radius: 20px;
 	}
 
 	.filler-height{
@@ -51,9 +61,4 @@
 		width: 350px;
 		padding-top: 0px;
 		border-radius: 20px;
-	}
-
-	div{
-		transition: src .5s;
-		-webkit-transition: src .5s;
 	}

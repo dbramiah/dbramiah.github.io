@@ -4,6 +4,26 @@
 <script src="https://code.jquery.com/jquery-git2.js"></script>
 <head>
 	<title>Daena Ramiah</title>
+
+	<script>
+	var images=["https://lh5.googleusercontent.com/-SXvszRi7uHY/U_uHkqFH7nI/AAAAAAAAAqQ/ZOtQRbBRBNU/s640/IMG_1031.JPG",
+	"https://lh3.googleusercontent.com/-iy0IuN664KA/U_uBDGozOQI/AAAAAAAAApg/cQViAqZIMis/s640/image%2520%25282%2529.jpg","https://lh5.googleusercontent.com/-TRSixrCy77I/U_uBBSlAvdI/AAAAAAAAApI/hCasyvhxmSQ/s640/IMG_0857.JPG","https://lh4.googleusercontent.com/-CSnW6hZzO2U/U_uJNruWAZI/AAAAAAAAAqc/0sphhnBh5NI/s720/DSC_0010.JPG"]
+
+	var caption=["Me with my dad and sister","Me with my mom","The family at the Cape of Good Hope","Me and my husband"]
+
+	var count = 0;
+	var scroll = function() {
+	$('.carousel').html('<img class="aligned-small" src='+images[count]+'><p>'+caption[count]+'</p>');
+	if(count<3){
+		count=count+1;
+	}
+	else{
+		count=0;
+	}
+	}
+	scroll();
+	setInterval(scroll,3000);
+</script>
 </head>
 
 <body>
@@ -19,42 +39,25 @@
 		<img class="headshot" src="https://lh4.googleusercontent.com/-FAiAFBrSn9k/U_uBBfFPsWI/AAAAAAAAApk/IeDMKfWhde4/s640/IMG_0850.JPG">
 	</div>
 
+	<div class="about">
 	<h2>about me</h2>
-	<p> I am 27 years old and am a devoted resident of San Francisco!  I currently work at a health network called Sutter Health.  I am just finishing a year-long rotational management program where--in addition to various projects--I oversaw a Radiology Department with 28 employees.  It was a wonderful experience.  My first full-time career was in management consulting with the Boston Consulting Group, where I worked for 3 years in various locations including Los Angeles, San Francisco, New York, Brussels, Zurich, London, and Rotterdam.</p>
+	<p> I am 27 years old live and am a devoted resident of San Francisco!  I currently work at a health network called Sutter Health where I am finishing up a year-long rotational management program.  Throughout the year I oversaw a Radiology Department in addition to completing several other operational and strategic projects.  It was a wonderful experience.  My first full-time career was in management consulting with the Boston Consulting Group, where I worked for 3 years in various locations including Los Angeles, San Francisco, New York, Brussels, Zurich, London, and Rotterdam.</p>
 
-	<p>I also have had the opportunity to learn from some incredible academic institutions.  Prior to joining Sutter, I received my MBA from the Stanford Graduate School of Business.  While there, I focused on healthcare, specifically healthcare innovation.  I had the opportunity to learn from some of the brightest minds and business leaders in the world and met some incredibly interesting people.  I received my undergraduate degree from Yale in Economics and Math.  My senior project was a proof of the Bourgain Embedding Theorem!</p>
+	<p>I also have had the opportunity to learn from some incredible academic institutions.  Prior to joining Sutter, I received my MBA from  Stanford.  While there, I focused on innovation in healthcare.  I received my undergraduate degree from Yale in Economics and Math.  My senior project was a proof of the Bourgain Embedding Theorem!</p>
 
-	<p> I am an avid cook and foodie!  I love all things that sizzle, smell, and pop.  I love experimenting and trying new things - I rarely cook the same recipe twice.  My most recent adventures were a Moroccan  lamb shank tagine and homemade wonton noodle soup with braised pork.  I am already getting hungry. </p>
-
+	<p> I am an avid cook and foodie!  I love all things that sizzle, smell, and pop.  I love experimenting and trying new things - I rarely cook the same recipe twice.  My most recent adventures were a Moroccan  lamb shank tagine and homemade wonton noodle soup with braised pork.  My favorite cuisine is anything from Southeast Asia (my family is originally from Malaysia, and I was born in Kuala Lumpur).  Just thinking about char kueh teow--a fried noodle dish commonly sold in hawker stalls--is making me hungry. </p>
+	</div>
 
 	<h3 class="center">pictures of my family</h3>
 		<div class="carousel aligned-small">
 		</div>
 
+	<div class="connect">
 	<h2>connect</h2>
-	<p>You can reach me at daena.ramiah@gmail.com or call me at 262-347-8193.</p>
-
+	<p>You can reach me at daena.ramiah@gmail.com or call me at 262-347-8193.   You can also connect with me on <a href="http://www.linkedin.com/pub/daena-ramiah/b/484/b52">LinkedIn</a></p>
 
 	<img class="size" src="https://lh5.googleusercontent.com/-O3b8oo09hI8/U_uBCQI00QI/AAAAAAAAApQ/6p_a-omuqD4/s640/image%2520%25281%2529.jpg">
-	<p class="small">I am originally from Wisconsin.  This is a picture of the frozen lake next to the house I grew up in.</p>
+	<p class="small">I grew up in Wisconsin.  This is a picture of the frozen lake next to our family home.</p>
+	</div>
 </body>
 
-<script>
-	var images=["https://lh5.googleusercontent.com/-SXvszRi7uHY/U_uHkqFH7nI/AAAAAAAAAqQ/ZOtQRbBRBNU/s640/IMG_1031.JPG",
-	"https://lh3.googleusercontent.com/-iy0IuN664KA/U_uBDGozOQI/AAAAAAAAApg/cQViAqZIMis/s640/image%2520%25282%2529.jpg","https://lh5.googleusercontent.com/-TRSixrCy77I/U_uBBSlAvdI/AAAAAAAAApI/hCasyvhxmSQ/s640/IMG_0857.JPG","https://lh4.googleusercontent.com/-CSnW6hZzO2U/U_uJNruWAZI/AAAAAAAAAqc/0sphhnBh5NI/s720/DSC_0010.JPG"]
-
-	var caption=["Me with my dad and sister","Me with my mom","The family at the Cape of Good Hope","Me and my husband"]
-
-	var count = 0;
-	var scroll = function() {
-	$('.carousel').html('<img class="size" src='+images[count]+'><p>'+caption[count]+'</p>');
-	if(count<3){
-		count=count+1;
-	}
-	else{
-		count=0;
-	}
-	}
-	scroll();
-	setInterval(scroll,3000);
-</script>
