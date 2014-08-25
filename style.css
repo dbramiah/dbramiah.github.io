@@ -1,0 +1,59 @@
+
+	body {
+		font-family:  'Lato' sans-serif;
+
+	}
+	h1{
+		font-size: 72px;
+		letter-spacing: 2px;
+		color: rgba(162,131,78,1);
+		margin: 50px 0px 10px 0px;
+	}
+	h2{
+		font-size: 24px;
+		letter-spacing: 2px;
+		color: rgba(162,131,78,1);
+	}
+	h3{
+		letter-spacing: 2px;
+		color: rgba(162,131,78,1);
+	}
+	.center{
+		text-align: center;
+	}
+	.top-right-pic{
+		position: absolute;
+		right: 10px;
+		border-radius: 20px;
+	}
+
+	.size {
+		width: 300px;
+		border-radius: 20px;
+	}
+
+	.small{
+	font-size: 14px;
+	width: 300px;
+	text-align: center;
+	}
+
+	.aligned-small{
+		font-size: 14px;
+		text-align: center;
+	}
+
+	.filler-height{
+		height: 275px;
+	}
+
+	.headshot{
+		width: 350px;
+		padding-top: 0px;
+		border-radius: 20px;
+	}
+
+	div{
+		transition: src .5s;
+		-webkit-transition: src .5s;
+	}
