@@ -1,5 +1,6 @@
 body {
 	font-family: Impact;
+	background-color: silver;
 }
 h1 {
 	text-align: center;
@@ -12,13 +13,22 @@ li {
 	display: inline;
 	padding: 0px 10px 0px 10px;
 	background-color: green;
+	text-align: center;
+	font-size: 25px;
 }
 img {
-	
+	text-align: center;
+	width: 1063px;
+	height: 700px;
 }
 div {
 	
 }
-p {
-	
+.dummy {
+	display: inline;
+	font-size: 15px;
+}
+.footer {
+	font-size: 10px;
+	color: Gray;
 }
