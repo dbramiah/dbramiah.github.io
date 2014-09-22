@@ -17,7 +17,7 @@ li {
 	font-size: 25px;
 }
 img {
-	text-align: center;
+	position: absolute;
 	width: 1063px;
 	height: 700px;
 }
@@ -25,7 +25,7 @@ div {
 	
 }
 .dummy {
-	display: inline;
+	text-align: center;
 	font-size: 15px;
 }
 .footer {
