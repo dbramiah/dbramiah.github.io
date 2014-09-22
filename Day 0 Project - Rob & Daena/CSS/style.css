@@ -31,8 +31,11 @@ div {
 .dummy {
 	text-align: left;
 	font-size: 15px;
+<<<<<<< HEAD
 	max-width: 500px;
 	
+=======
+>>>>>>> FETCH_HEAD
 }
 .footer {
 	font-size: 10px;
