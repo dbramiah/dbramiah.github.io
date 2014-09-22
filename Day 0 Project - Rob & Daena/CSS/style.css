@@ -29,10 +29,15 @@ div {
 	
 }
 .dummy {
-	text-align: center;
+	text-align: left;
 	font-size: 15px;
+	max-width: 500px;
 }
 .footer {
 	font-size: 10px;
 	color: gray;
+}
+
+.right {
+	float: right;
 }
