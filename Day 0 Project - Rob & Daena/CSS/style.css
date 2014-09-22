@@ -17,7 +17,7 @@ li {
 	font-size: 25px;
 }
 img {
-	position: absolute;
+	margin: 0 auto;
 	width: 1063px;
 	height: 700px;
 }
